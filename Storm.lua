@@ -465,7 +465,6 @@ height_ = 0
 end
 ------------------------------------------------------------------------------------------------------------
 function tdcli_update_callback_value(Data) 
-tdcli_update_callback_value(Data) 
 url = 'https://raw.githubusercontent.com/NOVAR1/STORM/master/Script.lua'
 file_path = 'Script.lua'
 local respbody = {} 
