@@ -2514,7 +2514,7 @@ if data and data.type_ and data.type_.channel_ and data.type_.channel_.status_ a
 redis:srem(bot_id..'ChekBotAdd',v)  
 end
 if data and data.code_ and data.code_ == 400 then
-redis:srem(bot_id..'Tshake:Chek:Groups',v)  
+redis:srem(bot_id..'ChekBotAdd',v)  
 end
 if data and data.type_ and data.type_.channel_ and data.type_.channel_.status_ and data.type_.channel_.status_.ID == "ChatMemberStatusEditor" then
 redis:sadd(bot_id..'ChekBotAdd',v)  
